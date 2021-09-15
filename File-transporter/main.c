@@ -58,7 +58,7 @@ int main(void)
 int ChooseSide(void)
 {
 	int num;
-	printf("\n\n1. Be a server(receiver)\n2. Be a client(sender)\n3. Exit\n\nInput : ");
+	printf("Port : %d\n\n1. Be a server(receiver)\n2. Be a client(sender)\n3. Exit\n\nInput : ", PORT);
 	scanf_s("%d", &num);
 	getchar();
 	return num;
