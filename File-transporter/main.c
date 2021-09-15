@@ -201,9 +201,9 @@ void BeServer(void)
 	closesocket(clnt_sock);
 
 	if (fdata.filesize == ulReceived_Size)
-		printf("\n\nFile Received Successfully!\n");
+		printf("\n\nFile Received Successfully!\n\n");
 	else
-		printf("\n\nCouldn't Receive File Successfully..\n");
+		printf("\n\nCouldn't Receive File Successfully..\n\n");
 	CloseHandle(hFile);
 }
 
